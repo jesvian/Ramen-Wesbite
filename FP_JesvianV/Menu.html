@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Menu</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="CSS/Hmenu.css" rel="stylesheet" type="text/css">
+<link href="CSS/reset.css" rel="stylesheet" type="text/css">
+<link href="CSS/menuBase.css" rel="stylesheet" type="text/css">
+<link href="CSS/Button_Style.css" rel="stylesheet" type="text/css">
+<link href="MenuStylesheet.css" rel="stylesheet" type="text/css">
+<link href="Gallery.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+		<!--nav bar-->
+	<!-- desktop list nav bar -->
+	<nav class="desktop">
+			<ul>
+			 <li><a href="index.html">Home</a></li>
+			 <li><a href="Menu.html">Menu</a></li>
+			 <li><a href="About.html">About Us</a></li>
+			</ul>
+		</nav>
+		<!-- mobile nav bar -->
+		<nav class="mobile">
+			  <div id="menuToggle">
+				<input type="checkbox" /> 
+				<span></span>
+				<span></span>
+				<span></span>
+
+				<ul id="menu">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="Menu.html">Menu</a></li>
+					<li><a href="About.html">About Us</a></li>
+				</ul>
+			  </div>
+			</nav> <!--End nav bar-->
+	
+	<!-- MAIN (Center website) -->
+<div class="main">
+	
+	<!--Menu Text-->
+	<h2>Menu</h2>
+<div id="myBtnContainer">
+  <button class="btn active" onclick="filterSelection('all')">Show all</button>
+  <button class="btn" onclick="filterSelection('Appetizers')">Appetizers</button>
+  <button class="btn" onclick="filterSelection('Ramen')">Ramen</button>
+  <button class="btn" onclick="filterSelection('Dessert')">Dessert</button>
+</div>
+
+<!-- Portfolio Gallery -->
+<div class="row">
+  <div class="column Appetizers">
+    <div class="content">
+      <img src="Images/App1.jpg" alt="App1" style="width:100%">
+	   <h4>Eel, salmon and tuna sushi </h4>
+       <p>$5.99.</p>
+    </div>
+  </div> <!--End app1-->
+	
+	<!--Start app2-->
+  <div class="column Appetizers">
+    <div class="content">
+      <img src="Images/App2.jpg" alt="App2" style="width:100%">
+<h4>Gyoza: Fried Dumpling</h4>
+      <p>$4.99 </p>
+    </div>
+  </div><!--End app2-->
+	
+	
+	
+	<!--Start Ramen column-->
+  <div class="column Ramen">
+    <div class="content">
+      <img src="Images/Miso.jpg" alt="Miso" style="width:100%">
+	  <h4>Miso Ramen</h4>
+	  <p>Miso seasoned broth</p>
+	  <p>$10.99</p>	
+    </div>
+  </div> <!--End Miso Ramen-->
+	
+	<!--Start Tonkotsu ramen-->
+  <div class="column Ramen">
+    <div class="content">
+      <img src="Images/Tonkotsu.jpg" alt="Tonkotsu" style="width:100%">
+      <h4>Tonkotsu Ramen</h4>
+      <p>Pork bone broth</p>
+	  <p>$11.99</p>
+    </div>
+  </div> <!--End Tonkotsu Ramen-->
+
+	<!--Start desserts column-->
+  <div class="column Desserts">
+    <div class="content">
+      <img src="Images/Dessert1.jpg" alt="Dessert1" style="width:100%">
+	  <h4>Maki Sushi</h4>
+      <p>Chocolate Roll with Various Fruit and Cream Cheese inside. Pancake outside.</p>
+	  <p>$7.99</p>
+    </div>
+  </div> <!--End dessert1-->
+	
+	<!--Start dessert2-->
+  <div class="column Dessert">
+    <div class="content">
+      <img src="Images/Dessert2.jpg" alt="Dessert2" style="width:100%">
+      <h4>Japanese green tea pudding with red beans.</h4>
+      <p>$5.99 <br/><br/></p>
+    </div>
+  </div> <!--end Dessert2-->
+ 
+<!-- END GRID -->
+</div>
+
+	<!-- END MAIN -->
+</div>
+	<!--Javascript folder-->
+<script type="text/javascript" src="js/menuGallery.js"></script>
+
+</body>
+</html>

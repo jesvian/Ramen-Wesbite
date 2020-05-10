@@ -1,0 +1,27 @@
+*{margin:0;padding:0;}
+body {
+	overflow-x: hidden;
+}
+figure a{ 
+    color:#fff;
+}
+.content{
+    margin: 1em 2em;    
+}
+.content ul, .content ol{
+    margin: .8em 1em .8em 2em;   
+}
+span.code{
+    font-family: "Lucida Console", "Lucida Sans Typewriter", Monaco, "Bitstream Vera Sans Mono", monospace;   
+    color: #999;
+}
+.gist{
+    margin: 1em 1em 2em 2em;
+}
+ol .gist{
+    margin: 1em 0 2em 0;
+}
+.num2{
+    width: 85%;
+    margin: 2em auto;
+}

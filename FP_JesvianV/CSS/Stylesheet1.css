@@ -1,0 +1,165 @@
+@charset "utf-8";
+html {
+  height: 100%;
+}
+
+body {
+    height: 100%;
+}
+
+.homeImage {
+	margin: 0px;
+	padding: 0px;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+}
+.row {
+    display: block;
+    clear: both;
+    content: "";
+}
+.Lunch {
+    background-color: #B8393B;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Dinner {
+    background-color: #D98C8D;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Dessert {
+    background-color: #229F88;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.Specials {
+    background-color: #797E29;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.container1 {
+    display: inline-block;
+    width: 100%;
+}
+.box {
+    width: 50%;
+    float: left;
+}
+.Model {
+    width: 50%;
+    float: left;
+}
+
+
+.b2 {
+
+}
+p {
+    padding-left: 25%;
+    padding-right: 55px;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+.container1 .box.b2 p {
+	padding-left: 50px;
+	padding-top: 25px;
+	padding-right: 50px;
+	text-align: center;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size: 100%;
+}
+
+
+.b1 {
+
+}
+
+.box.b1 img {
+	width: 100%;
+}
+
+.socialIcons {
+	clear: both;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+}
+.container1 .box.b2 h2 {
+	display: block;
+	font-size: 150%;
+	width: 100%;
+	text-align: center;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 40px;
+	margin-bottom: 10px;
+}
+.container1 .box.b2 h3 {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.container1 .box.b2 h4 {
+	padding-top: 6px;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:640px){
+.container1 {
+    width: 100%;
+}
+.box {
+}
+.b2 {
+    width: 100%;
+}
+.b1 {
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (min-width:641px) and (max-width:1280px){
+.homeImage {
+    width: 100%;
+}
+.box {
+    width: 100%;
+}
+
+
+
+}
